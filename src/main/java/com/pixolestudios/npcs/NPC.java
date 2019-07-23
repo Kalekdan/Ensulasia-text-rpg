@@ -34,11 +34,13 @@ public abstract class NPC {
     }
 
     public void startCombat(){
-        //TODO implement items
+        //TODO implement combat
+        System.out.print("we are fighting");
     }
 
     public void converse(){
         //TODO implement conversation
+        System.out.print("hello");
     }
 
     public void attacked(int strength, Weapon weapon){
@@ -58,5 +60,5 @@ public abstract class NPC {
         System.out.println("Hit for: " + damage + " - New HP is: " + currentHP);
     }
 
-    public abstract void encounter();
+    public abstract void encountered();
 }

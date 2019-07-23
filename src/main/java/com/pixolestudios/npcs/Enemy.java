@@ -9,7 +9,7 @@ public abstract class Enemy extends NPC {
     }
 
     @Override
-    public void encounter() {
+    public void encountered() {
         startCombat();
     }
 }

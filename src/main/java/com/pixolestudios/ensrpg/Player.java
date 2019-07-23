@@ -15,4 +15,8 @@ public class Player {
     public void attack(NPC other){
         other.attacked(10, new Sword("Sword of Ice and Fire", AttackType.ICE, AttackType.FIRE));
     }
+
+    public void encounter(NPC other){
+        other.encountered();
+    }
 }
